@@ -1,0 +1,31 @@
+<h1>Listing articles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Heading</th>
+      <th>Story</th>
+      <th>Publish date</th>
+      <th>Author</th>
+      <th>Image</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @articles.each do |article| %>
+      <tr>
+        <td><%= article.heading %></td>
+        <td><%= article.story %></td>
+        <td><%= article.publish_date %></td>
+        <td><%= article.author %></td>
+        <td><%= article.image %></td>
+        <td><%= link_to 'Show', article %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
