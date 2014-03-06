@@ -1,0 +1,54 @@
+/*
+ *= require bootstrap_and_overrides
+ *= require_self
+ */
+
+body {
+  background-image: url(http://fc02.deviantart.net/fs71/i/2013/174/c/f/ios_7_wallpaper_hd_for_desktop_pc_s_by_thegoldenbox-d6ab10v.png);
+}
+
+img {
+  opacity:0.4;
+}
+
+.comment {
+  margin: 10px;
+
+}
+
+#about_us_intro {
+  font-family: january;
+  font-size: 18px;
+  width: 80%;
+}
+
+p {
+  font-size: 16px;
+  font-family: january;
+  width: 80%;
+
+}
+
+.table.table-striped {
+  background-color: lightgray;
+  width: 80%;
+
+}
+
+.well.sidebar-nav {
+  background-color: lightgray;
+}
+
+.nav.nav-list {
+  background-color: white;
+}
+
+.nav-header {
+  background-color: lightgray;
+}
+
+a:hover {
+  font-size: 120%;
+  style: bold;
+}
+
